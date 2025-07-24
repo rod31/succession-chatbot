@@ -106,7 +106,7 @@ def get_faiss_index(character):
 # Streamlit UI
 
 # UI Layout
-st.title("Succesion Chatbot")
+st.title("Succession Chatbot")
 st.header("💬 Chat with the Roy family")
 # st.subheader("💬 Chat with the Roy family")
 st.logo("succession_logo.jpg")
