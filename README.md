@@ -10,7 +10,7 @@ This project brings _Succession’s_ razor-sharp dialogue to life with an AI-pow
 What makes _Succession_ so hypnotic is its **weaponized language**. As the [Wall Street Journal](https://www.wsj.com/arts-culture/television/the-weaponized-language-of-succession-eb97357f) points out, every curse, double-entendre, and clipped syllable is engineered to convey power, paranoia, and performance. Nerdwriter’s [deep-dive video](https://www.youtube.com/watch?v=REhlyvtiIhQ) breaks down how each Roy uses vocabulary as a character voice—whether it’s Roman’s biting sarcasm, Shiv’s steely precision, or Kendall’s tortured earnestness.
 
 I built this chatbot out of a fascination for how **word choice** and **speech patterns** reveal inner worlds. By indexing thousands of italicized lines with FAISS and guiding GPT-4o-mini with curated quotes, the app doesn’t just mimic the Roys’ tone—it **channels their personality**. In Shiv's words,  
-> “This project doesn’t just mimic speech; it channels the very soul of what makes the Roys, well, the Roys.”
+> “This project doesn’t just mimic speech; it channels the very soul of what makes the Roys, well, the Roys.” >
 My inspiration to build this project comes from my deep fascination with how personality comes through in language. The result is a chatbot that **feels** like the characters in this show. Or, using shiv's words, "This project doesn’t just mimic speech; it channels the very soul of what makes the Roys, well, the Roys."
 
 ---
