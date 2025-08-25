@@ -8,13 +8,12 @@ import faiss
 import numpy as np
 import openai, os
 
-# set your key
 openai.api_key = st.secrets["OPENAI_API_KEY"] or os.getenv("OPENAI_API_KEY")
 
 # instantiate the new client
 client = openai.OpenAI()
 
-# ─ your existing data & helpers ─
+# ─ existing data & helpers ─
 @st.cache_data
 def load_character(character):
     character_str = character.lower()
@@ -112,7 +111,7 @@ st.header("💬 Chat with the Roy family")
 st.logo("succession_logo.jpg")
 st.set_page_config(
     page_title="Chat with the Roys",
-    page_icon="🧑‍💼",            # you can also point to a local .png
+    page_icon="🧑‍💼",            # can also point to a local .png 
     layout="wide"
 )
 st.image("./succession_bg.jpg")
@@ -192,4 +191,5 @@ else:
                 st.chat_message(role).write(f"**{character_option} Roy:** {msg}")
             else:
                 st.chat_message(role).write(msg)
+
 
